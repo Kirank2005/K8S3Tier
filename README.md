@@ -19,7 +19,7 @@ This application is simple Tasks List/Todo List creator, you will be accessing t
 4.	We will use the declarative approach in this example. For each object, we will first prepare a manifest file, a yaml file containing all the information related to the object. Then we will execute the kubectl command, kubectl apply -f <FILE_NAME>to persist the object in the cluster state store.
 
 
-## Deployment process 
+## Manual Deployment Steps (deploy each component and playaround before going to next step) 
 	Step 1. Containerize the application
 	Step 2. Database pre-requisite configuration setup
 	Step 3. Configure PVC, SQL Service, and statefulset for database
