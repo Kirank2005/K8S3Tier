@@ -20,18 +20,18 @@ This application is simple Tasks List/Todo List creator, you will be accessing t
 
 
 ## Deployment process 
-Step 1. Containerize the application
-Step 2. Database pre-requisite configuration setup
-Step 3. Configure PVC, SQL Service, and statefulset for database
-Step 4. Configure service and deployment for backend
-Step 5. Front-end configuration setup 
-Step 6. Configure service and deployment for frontend
-Step 7. Setting up ExternalDNS for Services on AWS
-Step 8. Configure Horizontal Pod Autoscaler for frontend and backend deployments for high availability
-Step 9. Deploy ClusterAutoScaler
-Step 10. Deploy PodSecurityPolicy
-Step 11. Apply Network Policies
-Step 12. Test the application
+	Step 1. Containerize the application
+	Step 2. Database pre-requisite configuration setup
+	Step 3. Configure PVC, SQL Service, and statefulset for database
+	Step 4. Configure service and deployment for backend
+	Step 5. Front-end configuration setup 
+	Step 6. Configure service and deployment for frontend
+	Step 7. Setting up ExternalDNS for Services on AWS
+	Step 8. Configure Horizontal Pod Autoscaler for frontend and backend deployments for high availability
+	Step 9. Deploy ClusterAutoScaler
+	Step 10. Deploy PodSecurityPolicy
+	Step 11. Apply Network Policies
+	Step 12. Test the application
 
 
 
