@@ -1,11 +1,11 @@
 # Project Title
 
-This project is for sample 3 tier architecture, to understnad each k8s resourse and traffic flow. this archtecture also covers high availability,scalabilty & security.
+This project is for sample 3 tier kubernetes application architecture and also to understnad each k8s resourse, concept and traffic flow. this archtecture covers high availability,scalabilty & security.
 
 
 ### Installing
 
-Provided all the details in the referance installation guide provide
+Provided all the details in the referance installation guide.
 ### Executing program
 
 
