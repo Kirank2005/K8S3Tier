@@ -1,0 +1,16 @@
+---
+# Define 'Service' to expose FrontEnd Application
+apiVersion: v1
+kind: Service
+metadata:
+  name: to-do-app-frontend
+  namespace: demoapp
+spec:
+  selector: # pod labels should match these
+    app: to-do-app
+    tier: frontend
+  ports:
+  - protocol: "TCP"
+    port: 443
+    targetPort: 8080
+  type: NodePort # use NodePort if you are not running Kubernetes on Cloud

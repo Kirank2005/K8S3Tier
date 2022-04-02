@@ -1,0 +1,8 @@
+# ConfigMap to expose configuration related to backend application
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-conf # name of configMap
+  namespace: demoapp
+data:
+  server-uri: 192.168.49.2:31960 # enternal ip of backend application 'Service'

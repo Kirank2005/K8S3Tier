@@ -1,0 +1,39 @@
+---
+#frontend pods
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: frontend-pdb
+  namespace: demoapp
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels:
+      tier: frontend
+
+#backend Pods
+
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: backend-pdb
+  namespace: demoapp
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels:
+      tier: backend
+
+#DB Pods
+
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: database-pdb
+  namespace: demoapp
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels:
+      tier: database
+

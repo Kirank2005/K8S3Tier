@@ -1,0 +1,15 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: to-do-app-backend
+  namespace: demoapp
+spec:
+  spec:
+  maxReplicas: 10
+  minReplicas: 1
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: to-do-app-backend
+  targetCPUUtilizationPercentage: 50
+  
